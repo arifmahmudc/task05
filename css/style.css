@@ -1,0 +1,98 @@
+.header{
+	background-color: #5499C7;
+	min-height: 100px;
+}
+.h_one{
+	width: 20%;
+	float: left;
+}
+.h_two{
+	width: 80%;
+	float: right;
+}
+img{
+	width: 100%;
+	width: 100px;
+	border: 5px dotted Tomato;
+}
+h1{
+	text-align: center;
+}
+.wrapper{
+	/* overflow use in prent class */
+	overflow: hidden;
+	/*border: 5px solid orange; */
+}
+.blog{
+	border: 2px solid MediumSeaGreen;
+	/*background-color: MediumSeaGreen;*/
+	min-height: 250px;
+	width: 74.7%;
+	float: left;
+}
+.blog1{
+	width: 60%;
+	float: left;
+}
+.blog2{
+	width: 40%;
+	float: right;
+}
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.contact{
+	/*background-color: Tomato;*/
+	border: 2px solid Tomato;
+	min-height: 250px;
+	width: 24.7%;
+	float: right;
+}
+.side1{
+	width: 50%;
+	float: left;
+}
+.side2{
+	width: 50%;
+	float: right;
+}
+.container{
+	overflow: hidden;
+}
+.box1{
+	background-color: #BB8FCE;
+	width: 33.3%;
+	min-height: 255px;
+	float: left;
+}
+.box2{
+	background-color: #E59866;
+	width: 33.4%;
+	min-height: 255px;
+	float: left;
+}
+.box3{
+	background-color: #D0D3D4;
+	width: 33.3%;
+	min-height: 255px;
+	float: left;
+}
+.footer{
+	/* use in which div moving up */
+	/* clear: both; */
+	background-color: #808B96;
+	min-height: 80px;
+}
